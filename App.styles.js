@@ -2,29 +2,66 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    margin: 20,
+  },
+  buttonhome: {
+    marginTop: 10,
+  },
+  scrollContainer: {
+    flexGrow: 1,
     alignItems: "center",
-    justifyContent: "center",
-    padding: 5,
-    display: "flex",
-    flex: 2,
-    flexDirection: "row",
-    flexWrap: "wrap"
+    paddingVertical: 20,
+  },
+  userList: {
+    marginBottom: 15,
+    width: '100%',
+    alignItems: 'center',
   },
   card: {
-    margin: 10,
+    flexDirection: "row",
+    alignItems: "center",
     padding: 10,
-    height: 200,
-    justifyContent: "center",
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    elevation: 3,
+    width: '90%',
+    justifyContent: 'flex-start',
+    marginBottom: 15,
   },
   avatar: {
-    width: 75,
-    height: 75,
-    marginBottom: 10,
+    width: 50,
+    height: 50,
+    borderRadius: 25,
+    marginRight: 10,
   },
   boldText: {
     fontWeight: "bold",
-    marginBottom: 5,
+  },
+
+  profileContainer: {
+    flex: 1,
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 20,
+    backgroundColor: "#f9f9f9",
+  },
+  profileAvatar: {
+    width: 120,
+    height: 120,
+    borderRadius: 60,
+    marginBottom: 20,
+  },
+  profileName: {
+    fontSize: 24,
+    fontWeight: "bold",
+    marginBottom: 10,
+  },
+  profileEmail: {
+    fontSize: 16,
+    marginBottom: 30,
+  },
+  button: {
+    marginTop: 20,
   },
 });
 
